@@ -1,11 +1,10 @@
-
 <?php
 
 $website = $_GET['q'];
 $placeholder = $_GET['q'];
 if(!isset($website)) {
 
-	$website = "https://responsive-test.glitchr.io/default.html";
+	$website = "https://dev.glitchr.io/responsive-test/default.html";
 	$placeholder = "http://www.monsite.com";
 }
 
@@ -44,6 +43,7 @@ $copy = $_SERVER["REQUEST_URI"];
         Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
     -->
     <script src="https://assets.glitchr.io/fonts/FontAwesome/5.15.1/js/all.js"></script>
+
     <link rel="stylesheet" href="https://assets.glitchr.io/fonts/stylesheet.css">
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
