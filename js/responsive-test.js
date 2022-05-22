@@ -144,7 +144,7 @@
           if(xFrameOp==='sameorigin' && json.origin !== location.origin) throw new Error();
 
           return true;
-        })
+        }, function() { return true; })
       }
 
 	function pop_back() {
